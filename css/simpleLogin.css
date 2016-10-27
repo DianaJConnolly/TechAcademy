@@ -1,0 +1,73 @@
+body {
+  font: 13px/20px "Arial", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #FBF2B2;
+}
+
+/*Container------------------------------------------*/
+
+.container {
+  margin: 55px auto;
+  width: 575px;
+}
+.login {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 20px 20px;
+  width: 310px;
+}
+
+/*Design elements------------------------------------*/
+
+.login p.submit {
+  text-align: right;
+}
+
+.container {
+  margin: 50px auto;
+  width: 640px;
+}
+.login:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -8px;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: #6A283C;
+  text-align: center;
+}
+ 
+.login-help a {
+  color: #6FB025;
+  text-decoration: none;
+}
+ 
+.login-help a:hover {
+  text-decoration: underline;
+}
+ 
+.about {
+  margin: 20px 0;
+  font-size: 11px;
+  color: #6A283C;
+  text-align: center;
+}
+
+:-moz-placeholder {
+  color: #c9c9c9 !important;
+  font-size: 13px;
+}
+ 
+::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 13px;
+}

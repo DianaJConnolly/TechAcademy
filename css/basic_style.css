@@ -1,0 +1,83 @@
+body {
+	background-color: "fff"
+}
+h1 {
+	color: rgba(8, 141, 165, 1);
+	margin-left: 100px;
+	text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
+}
+.container{
+	width: 450px;
+	height: 450px;
+	background-color: #faebd7;
+	border: 2px solid black;
+	border-radius: 5%; 
+}
+/* select all square in array */
+.container .squares:nth-child(-n+4){
+	background-image: url("../images/icons/smileyface1.png");
+	color: #ffffff;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 25%;
+	cursor: pointer;
+	/*with css3, we can use transitions*/
+	transition: transform .5s ease-in-out;
+}
+/* select all paragraphs in array */
+.squares:nth-child(-n+4) p{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: 900;
+	text-align: center;
+	margin: 0;
+	text-shadow: 2px 1px 4px rgba(0,0,0,0.8);
+}
+/*select individual squares */
+.squares:nth-child(1){
+	background: #FFAA02;
+}
+.squares:nth-child(2){
+	background: #FF6A10;
+}
+.squares:nth-child(3){
+	background: #FF0541;
+}
+.squares:nth-child(4){
+	background: #BDFF1A;
+}
+
+/* hover, translate, and transform effects*/
+.container .squares:nth-child(-n+4):hover{
+	background-image: url("../images/icons/rocket-launch.svg");
+	transform:scale(.5);
+	animation-name: race;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: cubic-bezier(2.5, 0.2, 0.3, 2);
+}
+.squares:nth-child(1):hover {
+	background: #389DFF;
+}
+.squares:nth-child(2):hover {
+	background: #8E4AFF;
+}
+.squares:nth-child(3):hover {
+	background: #41FFC8;
+}
+.squares:nth-child(4):hover {
+	background: #CB5CFF;
+}
+/*Animation Effect*/
+@keyframes race{
+	0%, 100% {
+		transform: translateY(0px)
+		background-image: url("../images/icons/rocket-launch.svg");
+	}
+	50% {
+		transform: translateY(330px);
+	}
+}
