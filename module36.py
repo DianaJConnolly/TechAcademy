@@ -70,10 +70,3 @@ def strTruncate(str):
 	else:
 		strTemp =  "your string is just too big to process"
 	return strTemp
-
-print "divisor, remainder : ",
-	print count,
-	print " ",
-	print remain
-
-
