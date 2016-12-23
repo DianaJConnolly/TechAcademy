@@ -32,10 +32,10 @@ def getQuest(prevQuest):
 def getAction(quest, name):
 	print ("\n{}, Would you".format(name)),
 	print (quest[2])
-	action = raw_input( "yes/no: ").lower()
+	action = getValidInput()
 	return action
 
-def calcScore(action, quest, score):
+def getScore(action, quest, score):
 	if action == "y" or action == "yes":
 		score += quest[0]
 	else:
@@ -64,7 +64,8 @@ def outputResult(name, score): #scores can range from -25 .. 25
 	print "Your score was " + str(score) + " on a scale of -25 to 25."
 
 def goAgain(again, name, score, prevQuest):
-	loop = raw_input( "\nWant to try again?: yes/no: ").lower()
+	print "\nWant to try again?:"
+	loop = getValidInput()
 	if loop == "n" or loop == "no":
 		again = False
 		print "\nGoodbye, {}!\n".format(name)
@@ -74,3 +75,9 @@ def goAgain(again, name, score, prevQuest):
 		print "\nAlright, {}! Let's go again!".format(name)
 	return [again, score, prevQuest]
 
+def getValidInput():
+	userInput = raw_input( "yes/no: ").lower()
+	while userInput != 'y' and userInput != 'yes' and userInput != 'n' and userInput != 'no':
+		print "Sorry, bad input. Please enter 'yes' or 'no'. Even a a 'y' or 'n' willwork!"
+		userInput = raw_input( "yes/no: ").lower()
+	return userInput

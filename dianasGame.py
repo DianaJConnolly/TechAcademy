@@ -32,7 +32,7 @@ def main():
 			name = gModule.getName(name)
 			quest = gModule.getQuest(prevQuest)
 			action = gModule.getAction(quest, name)
-			score = gModule.calcScore(action, quest, score)
+			score = gModule.getScore(action, quest, score)
 		gModule.outputResult(name, score)
 		reset = gModule.goAgain(again, name, score, prevQuest)
 		again = reset[0]
