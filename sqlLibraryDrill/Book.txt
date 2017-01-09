@@ -1,0 +1,20 @@
+1001	The Lost Tribe	Bantam Books
+1002	Hitchhiker’s Guide to the Galaxy	Ace
+1003	Ender's Game	Tor Science Fiction
+1004	Dune	Ace
+1005	The Shining	Anchor
+1006	The Dune Collection	Berkley/Ace Books
+1007	Speaker for the Dead (The Ender Quintet)	Tor Science Fiction
+1008	Neuro Mancer	Ace
+1009	Pattern Recognition	Berkley
+1010	City	Open Road Media Sci-Fi & Fantasy
+1011	Foundation	Bantam Spectra Books
+1012	The Complete Robot (Robot Series)	Voyager
+1013	The Caves of Steel	Spectra
+1014	The Left Hand of Darkness	Ace Books
+1015	The Lathe Of Heaven: A Novel	Scribner
+1016	Shottle Bop	Ballantine Books
+1017	I Have No Mouth and I Must Scream	Open Road Media
+1018	Burning Chrome	Harper Voyager
+1019	Tortilla Curtain	Penguin Books
+1020	Drop City	Penguin Booksn

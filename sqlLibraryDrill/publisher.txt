@@ -1,0 +1,20 @@
+Bantam Books	123 Main Street	5037891021
+Ace	456 Elm Avenue	5047901022
+Tor Science Fiction	789 Forest Way	5057911023
+Ace Books	1011 Totem Blvd	5067921024
+Anchor	1012 1st Hwy	5077931025
+Berkley/Ace Books	1818 2nd Street	5087941026
+Tor Science Fables	1919 3rd Avenue	5097951027
+Ace SF	1010 45th Way	5107961028
+Berkley	2020 79th Blvd	5117971029
+Open Road Media Sci-Fi & Fantasy	3929 Eliot Hwy	5127981030
+Bantam Spectra Books	123 Sparkle Street	5137991031
+Voyager	456 Main Avenue	5148001032
+Spectra	789 Elm Way	5158011033
+Ace Hardware	1011 Forest Blvd	5168021034
+Scribner	1012 Totem Hwy	5178031035
+Ballantine Books	1818 1st Street	5188041036
+Open Road Media	1919 2nd Avenue	5198051037
+Harper Voyager	1010 3rd Way	5208061038
+Penguin Books	2020 45th Blvd	5218071039
+Parker Books	3929 79th Hwy	5228081040

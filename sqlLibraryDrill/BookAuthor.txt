@@ -1,0 +1,20 @@
+1001	Mark Lee
+1002	Douglas Adams
+1003	Orson Scott Card
+1004	Frank Herbert
+1005	Stephen King
+1006	Frank Herbert
+1007	Orson Scott Card
+1008	William Gibson
+1009	William Gibson
+1010	Robert Heinlein
+1011	Isaac Asimov
+1012	Isaac Asimov
+1013	Isaac Asimov
+1014	Ursula K. LeGuin
+1015	Ursula K. LeGuin
+1016	Theodore Sturgeon
+1017	Harlan Ellison
+1018	William Gibson
+1019	T. C. Boyle
+1020	T. C. Boyle

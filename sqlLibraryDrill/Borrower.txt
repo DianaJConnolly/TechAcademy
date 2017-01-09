@@ -1,0 +1,10 @@
+1001	Tom Hanks	7845th Street	4562227845
+1002	Clifford Stoll	7856th Ave	4582427856
+1003	Robert Motherwell	7867th Way	4602627867
+1004	Claire Trapp	7878th Street	4622827878
+1005	Jim Kirk	7889th Ave	4643027889
+1006	Mr. Spock	7900th Way	4663227900
+1007	Dr. "Bones" McCoy	7911th Street	4683427911
+1008	John Duh	7922th Ave	4703627922
+1009	Hieronymous Bosch	7933th Way	4723827933
+1010	Mark Rothko	7944th Street	4744027944
